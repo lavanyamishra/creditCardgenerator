@@ -21,7 +21,7 @@ function Cards(props) {
 					<img className="logo" src={cardLogo} alt="" />
 					<h1 className="card-number">{displayCardNumber(cardNumber) || "0000 0000 0000 0000"}</h1>
 					<div className="flex">
-						<p className="cardholder-name">{cardholderName || "Harshitha"}</p>
+						<p className="cardholder-name">{cardholderName || "LAVANYA"}</p>
 						<p>
 							{expiryDate.mm || "00"}/{expiryDate.yy || "00"}
 						</p>
